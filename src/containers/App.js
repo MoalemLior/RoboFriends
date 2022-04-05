@@ -54,7 +54,7 @@ class App extends Component{
             return(
                 <div className="tc">
                     <h1>RoboFriends</h1>
-                    <div className="pa2">
+                    <div className="pa1">
                         <SearchBox searchChange={this.onSearchChange}/>
                     </div>
                     <h2>Loading...</h2>
